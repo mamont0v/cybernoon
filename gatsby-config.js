@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Cybernoon`,
+    description: `Кибербезопасность - это наше все, а не информационная ;).`,
+    author: `@valentinmamontov`,
   },
   plugins: [
 
@@ -26,7 +26,7 @@ module.exports = {
         path: `${__dirname}/src/markdown-pages`,
       },
     },
-   
+    `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`, //convert own markdown files into html
     `gatsby-plugin-sharp`,

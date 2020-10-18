@@ -1,9 +1,12 @@
 ---
-title: 'My First AMA'
-date: '2017-08-21'
-description: 'My first AMA :)'
+title: 'Федеральный закон "О безопасности критической информационной инфраструктуры Российской Федерации" от 26.07.2017 N 187-ФЗ (последняя редакция)'
+date: '2020-08-21'
+description: 'Пример'
 ---
 
-Thank you everyone who enjoyed the AMA! It was my first one and I'd love to do it again.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DXJO3AraeMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h3>Статья 1. Сфера действия настоящего Федерального закона</h3>
+ 
+<p>Настоящий Федеральный закон регулирует отношения в области обеспечения безопасности критической информационной инфраструктуры Российской Федерации (далее также - критическая информационная инфраструктура) в целях ее устойчивого функционирования при проведении в отношении ее компьютерных атак.</p>
+
+<iframe width="560" height="315" src="https://youtube.com/embed/Npd3yDtS1yM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

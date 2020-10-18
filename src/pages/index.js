@@ -3,9 +3,11 @@ import { Link, graphql } from "gatsby"
 import styled from "styled-components"
 
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/layout/layout"
+import Image from "../components/image/image"
+import SEO from "../components/seo/seo"
+import BannerMain from "../components/banner-on-main-page/bannerMain.component"
+
 
 const BlogLink = styled(Link)`
 text-decoration: none;
@@ -14,8 +16,9 @@ text-decoration: none;
 export default ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <h4>{data.allMarkdownRemark.totalCount}</h4>
+    <BannerMain/>
+    <h1>Все новости</h1>
+    <h4>Постов всего - {data.allMarkdownRemark.totalCount}</h4>
     {
       data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
@@ -25,15 +28,6 @@ export default ({ data }) => (
         </div>
       ))
     }
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-
-    <Link k to="/page-2/">Go to page 2</Link> <br />
-
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 
@@ -49,6 +43,7 @@ query {
             title
             date
             description
+            tags
           }
           fields {
             slug
